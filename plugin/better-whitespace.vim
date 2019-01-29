@@ -400,11 +400,11 @@ command! -bang -range=% StripWhitespaceOnChangedLines call <SID>StripWhitespaceO
 " Run :StripWhitespace to remove end of line whitespace
 command! -bang -range=% StripWhitespace call <SID>StripWhitespaceCommand(<line1>, <line2>, <bang>0)
 " Run :EnableStripWhitespaceOnSave to enable whitespace stripping on save
-command! EnableStripWhitespaceOnSave call <SID>EnableStripWhitespaceOnSave()
+"command! EnableStripWhitespaceOnSave call <SID>EnableStripWhitespaceOnSave()
 " Run :DisableStripWhitespaceOnSave to disable whitespace stripping on save
-command! DisableStripWhitespaceOnSave call <SID>DisableStripWhitespaceOnSave()
+"command! DisableStripWhitespaceOnSave call <SID>DisableStripWhitespaceOnSave()
 " Run :ToggleStripWhitespaceOnSave to enable/disable whitespace stripping on save
-command! ToggleStripWhitespaceOnSave call <SID>ToggleStripWhitespaceOnSave()
+"command! ToggleStripWhitespaceOnSave call <SID>ToggleStripWhitespaceOnSave()
 " Run :EnableWhitespace to enable whitespace highlighting
 command! EnableWhitespace call <SID>EnableWhitespace()
 " Run :DisableWhitespace to disable whitespace highlighting
